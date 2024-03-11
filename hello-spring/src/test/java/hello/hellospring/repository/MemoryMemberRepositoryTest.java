@@ -43,7 +43,7 @@ class MemoryMemberRepositoryTest {
         member2.setName("spring2");
         repository.save(member2);
 
-         Member result = repository.findByname("spring1").get();
+         Member result = repository.findByName("spring1").get();
 //        Member result = repository.findByname("spring2").get(); 라고 하면
 //        result는 member2이기 때문에 밑줄이 정상 동작 되지 않는다. (다른 객체다.)
          assertThat(result).isEqualTo(member1);
