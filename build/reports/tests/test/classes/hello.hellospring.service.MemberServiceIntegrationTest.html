@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">2</div>
+<div class="counter">1</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.374s</div>
+<div class="counter">0.413s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,13 +78,8 @@
 </tr>
 </thead>
 <tr>
-<td class="success">중복_회원_예외()</td>
-<td class="success">0.369s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
 <td class="success">회원가입()</td>
-<td class="success">0.005s</td>
+<td class="success">0.413s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -92,8 +87,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:35:15.773 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.hellospring.service.MemberServiceIntegrationTest]: MemberServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-19:35:15.805 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.hellospring.HelloSpringApplication for test class hello.hellospring.service.MemberServiceIntegrationTest
+<pre>19:56:38.903 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.hellospring.service.MemberServiceIntegrationTest]: MemberServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:56:38.938 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.hellospring.HelloSpringApplication for test class hello.hellospring.service.MemberServiceIntegrationTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -103,13 +98,24 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.3)
 
-2024-03-16T19:35:15.909+09:00  INFO 19486 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : Starting MemberServiceIntegrationTest using Java 17.0.10 with PID 19486 (started by choisuhwan in /Users/choisuhwan/study/Spring0)
-2024-03-16T19:35:15.909+09:00  INFO 19486 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2024-03-16T19:35:16.204+09:00  INFO 19486 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2024-03-16T19:35:16.306+09:00  INFO 19486 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : Started MemberServiceIntegrationTest in 0.462 seconds (process running for 0.806)
-2024-03-16T19:35:16.315+09:00  INFO 19486 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-03-16T19:35:16.342+09:00  INFO 19486 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/test user=SA
-2024-03-16T19:35:16.343+09:00  INFO 19486 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-16T19:56:39.056+09:00  INFO 19699 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : Starting MemberServiceIntegrationTest using Java 17.0.10 with PID 19699 (started by choisuhwan in /Users/choisuhwan/study/Spring0)
+2024-03-16T19:56:39.057+09:00  INFO 19699 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-03-16T19:56:39.273+09:00  INFO 19699 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-16T19:56:39.279+09:00  INFO 19699 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2024-03-16T19:56:39.410+09:00  INFO 19699 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-16T19:56:39.426+09:00  INFO 19699 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-16T19:56:39.435+09:00  INFO 19699 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-16T19:56:39.513+09:00  INFO 19699 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-16T19:56:39.523+09:00  INFO 19699 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-16T19:56:39.559+09:00  INFO 19699 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/test user=SA
+2024-03-16T19:56:39.560+09:00  INFO 19699 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-16T19:56:39.810+09:00  INFO 19699 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-16T19:56:39.811+09:00  INFO 19699 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-16T19:56:39.876+09:00  WARN 19699 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-16T19:56:39.886+09:00  INFO 19699 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-03-16T19:56:40.008+09:00  INFO 19699 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : Started MemberServiceIntegrationTest in 1.025 seconds (process running for 1.381)
+Hibernate: select m1_0.id,m1_0.name from member m1_0 where m1_0.name=?
+Hibernate: insert into member (name,id) values (?,default)
 </pre>
 </span>
 </div>
@@ -121,7 +127,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.5</a> at 2024. 3. 16. 오후 7:35:16</p>
+<a href="http://www.gradle.org">Gradle 8.5</a> at 2024. 3. 16. 오후 7:56:40</p>
 </div>
 </div>
 </body>
