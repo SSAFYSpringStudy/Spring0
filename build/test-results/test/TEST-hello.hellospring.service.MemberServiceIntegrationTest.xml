@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.hellospring.service.MemberServiceIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-16T10:15:49" hostname="Suhwan-M3-MacBook-Pro.local" time="0.383">
+  <properties/>
+  <testcase name="회원가입()" classname="hello.hellospring.service.MemberServiceIntegrationTest" time="0.383"/>
+  <system-out><![CDATA[19:15:48.604 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.hellospring.service.MemberServiceIntegrationTest]: MemberServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:15:48.637 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.hellospring.HelloSpringApplication for test class hello.hellospring.service.MemberServiceIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-03-16T19:15:48.749+09:00  INFO 19277 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : Starting MemberServiceIntegrationTest using Java 17.0.10 with PID 19277 (started by choisuhwan in /Users/choisuhwan/study/Spring0)
+2024-03-16T19:15:48.749+09:00  INFO 19277 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : No active profile set, falling back to 1 default profile: "default"
+2024-03-16T19:15:49.049+09:00  INFO 19277 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-03-16T19:15:49.158+09:00  INFO 19277 --- [    Test worker] h.h.s.MemberServiceIntegrationTest       : Started MemberServiceIntegrationTest in 0.478 seconds (process running for 0.816)
+2024-03-16T19:15:49.166+09:00  INFO 19277 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-16T19:15:49.193+09:00  INFO 19277 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/test user=SA
+2024-03-16T19:15:49.194+09:00  INFO 19277 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
